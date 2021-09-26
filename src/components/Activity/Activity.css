@@ -1,0 +1,126 @@
+.container_activity {
+  margin-right: -40px;
+  margin-left: -40px;
+  display: flex;
+  flex-direction: column;
+}
+.active_title {
+  color: var(--form-title);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+}
+.name {
+  text-align: center;
+  font-size: small;
+  color: grey;
+}
+.active_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: fit-content;
+  height: 60px;
+  margin-top: 5px;
+}
+.user_photo {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.main_activity {
+  margin-top: 40px;
+}
+.activity_title {
+  color: grey;
+  font-size: 23px;
+  line-height: 27px;
+}
+.activ_data {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--pl-color);
+}
+
+.activity_info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0 15px 0;
+  border-bottom: 1px solid gray;
+}
+.company_logo {
+  flex: 1;
+  margin-right: 15px;
+}
+.company {
+  width: 90px;
+  height: 60px;
+}
+.activity_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  flex: 4;
+  margin-bottom: 20px;
+}
+.logout_p {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn_logout {
+  width: fit-content;
+  color: var(--btn-bc);
+  cursor: pointer;
+  font-size: small;
+  background: white;
+  margin-top: 5px;
+  border: 0;
+}
+.btn_logout:hover {
+  color: limegreen;
+}
+.investment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.act_title {
+  color: grey;
+  font-size: normal;
+}
+.act_price {
+  color: rgb(87, 143, 4);
+  font-size: normal;
+}
+
+.time_d {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: grey;
+}
+.act_icon {
+  color: grey;
+  font-size: normal;
+}
+.timer {
+  color: var(--pl-color);
+  font-size: small;
+  align-items: flex-end;
+}

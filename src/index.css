@@ -1,0 +1,11 @@
+:root {
+  --pl-color: #b7b7b7;
+  --form-title: #0a0a0a;
+  --input-wrap: #16110d;
+  --btn-bc: #3b286d;
+  --page-bk: #ffffff;
+  --hower-in: #3b286d;
+}
+body {
+  background: #e5e5e5;
+}

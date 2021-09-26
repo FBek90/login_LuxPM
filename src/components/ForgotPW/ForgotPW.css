@@ -1,0 +1,72 @@
+.form_title {
+  color: var(--form-title);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+}
+.form_forgot {
+  margin-top: 100px;
+}
+#wrapper_forgot {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  border-bottom: 2px solid var(--input-wrap);
+}
+.label {
+  color: var(--pl-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.input_forgot {
+  border: 0px solid;
+  height: 45px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.input_forgot:focus {
+  outline: none;
+}
+.btn_forgot {
+  background: var(--btn-bc);
+  width: 100%;
+  height: 50px;
+  border-radius: 8px !important;
+  color: white;
+  margin-top: 140px !important;
+  margin-bottom: 30px !important;
+  cursor: pointer;
+}
+.btn_forgot:hover {
+  background: white;
+  color: var(--btn-bc);
+}
+#icon_forgot {
+  background-image: url(../../assets/icon/email.svg);
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+}
+.text_def {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--pl-color);
+}
+.bottom_text {
+  margin-bottom: 30px;
+}
+::placeholder {
+  color: var(--pl-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
